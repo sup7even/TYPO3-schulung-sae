@@ -1,0 +1,37 @@
+// main content
+lib.content.main = CONTENT
+lib.content.main {
+    table = tt_content
+    select {
+        orderBy = sorting
+        where = colPos=0
+    }
+}
+// sidebar content
+lib.content.sidebar < lib.content.main
+lib.content.sidebar {
+    select.where = colPos=1
+}
+// 2nd main content on startpage
+lib.content.mainAdditional < lib.content.main
+lib.content.mainAdditional {
+    select.where = colPos=23
+}
+// sujet area on startpage
+lib.content.sujetArea < lib.content.main
+lib.content.sujetArea {
+    select.where = colPos=10
+}
+// columns on startpage
+lib.content.col1From3 < lib.content.main
+lib.content.col1From3 {
+    select.where = colPos=20
+}
+lib.content.col2From3 < lib.content.main
+lib.content.col2From3 {
+    select.where = colPos=21
+}
+lib.content.col3From3 < lib.content.main
+lib.content.col3From3 {
+    select.where = colPos=22
+}

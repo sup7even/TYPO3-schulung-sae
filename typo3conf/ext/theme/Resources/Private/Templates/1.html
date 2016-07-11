@@ -3,8 +3,7 @@
 <div class="container">
 
     <div class="jumbotron">
-        <h1>Foobar</h1>
-        <p>Jumbotron super foobar text. Nunc efficitur massa mauris. Phasellus sed mauris rutrum massa facilisis suscipit et a tortor. Phasellus mattis, libero quis tincidunt commodo, ligula libero rutrum sapien, eget finibus nisi purus at felis. Vivamus iaculis in metus eget tempor. Quisque dictum ex at neque egestas.</p>
+        <f:cObject typoscriptObjectPath="lib.content.sujetArea" />
     </div>
 </div>
 
@@ -13,19 +12,25 @@
 
     <div class="row mb30">
         <div class="col-xs-12">
-            <f:cObject typoscriptObjectPath="styles.content.get" />
+            <f:cObject typoscriptObjectPath="lib.content.main" />
         </div>
     </div>
 
     <div class="row mb30">
         <div class="col-xs-12 col-md-4">
-            GRID COLUMN CONTENT
+            <f:cObject typoscriptObjectPath="lib.content.col1From3" />
         </div>
         <div class="col-xs-12 col-md-4">
-            GRID COLUMN CONTENT
+            <f:cObject typoscriptObjectPath="lib.content.col2From3" />
         </div>
         <div class="col-xs-12 col-md-4">
-            GRID COLUMN CONTENT
+            <f:cObject typoscriptObjectPath="lib.content.col3From3" />
+        </div>
+    </div>
+
+    <div class="row mb30">
+        <div class="col-xs-12">
+            <f:cObject typoscriptObjectPath="lib.content.mainAdditional" />
         </div>
     </div>
 
