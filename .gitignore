@@ -6,3 +6,4 @@
 .DS_Store
 /typo3conf/Documentation/**/*
 /typo3conf/realurl_autoconf.php
+/fileadmin/_processed_/**/*
