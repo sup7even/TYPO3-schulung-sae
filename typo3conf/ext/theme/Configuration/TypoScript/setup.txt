@@ -19,6 +19,8 @@ page {
     includeJSFooter {
         jquery = EXT:theme/Resources/Public/JavaScript/bootstrap.js
     }
+
+    bodyTag = <body id="top">
 }
 
 page.10 = FLUIDTEMPLATE
