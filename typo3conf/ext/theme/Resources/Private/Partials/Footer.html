@@ -3,7 +3,9 @@
         <div class="col-xs-12">
             <hr></div>
         <div class="col-xs-12 col-md-8">
-            <p>&copy; <f:cObject typoscriptObjectPath="lib.footerYear" /> // Copyright Lipsum Dolor amend text.</p>
+            <p>&copy; <f:cObject typoscriptObjectPath="lib.footerYear" /> //
+                <f:format.stripTags><f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '1', colPos: '50', wrap: ''}" /></f:format.stripTags>
+            </p>
         </div>
         <div class="col-xs-12 col-md-4 text-right">
             <f:cObject typoscriptObjectPath="lib.footerMenu" />
