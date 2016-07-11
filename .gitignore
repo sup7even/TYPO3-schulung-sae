@@ -1,0 +1,6 @@
+/typo3conf/ext/theme/Resources/Private/Drafts
+/typo3conf/deprecation_*.log
+/typo3conf/ENABLE_INSTALL_TOOL
+/typo3temp/**/*
+.idea
+/.DS_Store
