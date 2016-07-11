@@ -1,1 +1,7 @@
-page.meta.description.field = description
+page.meta {
+    description.field = description
+    keywords.field = keywords
+    viewport = width=device-width, initial-scale=1.0
+}
+
+page.headTag = <head><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
