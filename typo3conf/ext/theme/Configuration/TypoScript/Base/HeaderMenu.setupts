@@ -1,0 +1,16 @@
+lib.headerMenu = HMENU
+lib.headerMenu {
+    wrap = <ul class="nav navbar-nav">|</ul>
+    1 = TMENU
+    1 {
+        stdWrap.preCObject = COA
+        stdWrap.preCObject {
+            10 = TEXT
+            10.value = Startseite
+            10.typolink.parameter = 1
+            10.wrap = <li>|</li>
+        }
+        NO = 1
+        NO.wrapItemAndSub = <li>|</li>
+    }
+}
