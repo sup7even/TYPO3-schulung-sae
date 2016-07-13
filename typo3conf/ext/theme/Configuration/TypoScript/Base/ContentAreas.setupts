@@ -11,6 +11,7 @@ lib.content.main {
 lib.content.sidebar < lib.content.main
 lib.content.sidebar {
     select.where = colPos=1
+    slide = -1
 }
 // 2nd main content on startpage
 lib.content.mainAdditional < lib.content.main
