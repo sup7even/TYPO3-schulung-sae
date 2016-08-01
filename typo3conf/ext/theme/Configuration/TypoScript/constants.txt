@@ -1,1 +1,8 @@
 styles.content.textmedia.maxWInText = 400
+
+
+tree {
+    ga {
+        id = UA-1234567
+    }
+}
