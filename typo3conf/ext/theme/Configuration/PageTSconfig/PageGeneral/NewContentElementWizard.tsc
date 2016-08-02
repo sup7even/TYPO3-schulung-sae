@@ -1,0 +1,17 @@
+# *******************************************************
+# Define content elements in "New Content Element Wizard"
+# *******************************************************
+
+mod.wizards.newContentElement.wizardItems {
+	common.elements {
+		textmediaboxed {
+			iconIdentifier = content-textpic
+			title = Text & Media (boxed)
+			description = Boxed Content Element
+			tt_content_defValues {
+				CType = theme_textmediaboxed
+			}
+		}
+	}
+	common.show := addToList(textmediaboxed)
+}
